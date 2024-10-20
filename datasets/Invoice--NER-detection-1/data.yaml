@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['paragraph', 'table']
+
+roboflow:
+  workspace: ai-mrayv
+  project: invoice-ner-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-mrayv/invoice-ner-detection/dataset/1
